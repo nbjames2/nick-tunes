@@ -47,9 +47,13 @@ class Album extends Component {
     if (isNaN(time)) {
       return "-:--"
     } else {
-    const minutes = Math.floor((time / 60)).toString();
-    const seconds = Math.floor(time - (minutes * 60)).toString();
-    return (minutes + ":" + seconds);
+      const minutes = Math.floor((time / 60)).toString();
+      const seconds = Math.floor(time - (minutes * 60)).toString();
+      if (seconds < 10) {
+        return (minutes + ":0" + seconds)
+      } else {
+        return (minutes + ":" + seconds);
+      }
     }
   }
 
