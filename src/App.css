@@ -26,3 +26,40 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+header {
+  border-bottom: 1px solid #f04f23;
+}
+
+#Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+h1 {
+  color: #1DB4DB;
+  font-size: 3em;
+}
+
+
+body {
+  background: #272727;
+}
+
+a#landinglink {
+  font-size: 2em;
+  float: left;
+  margin-top: 50px;
+  margin-left: 20%;
+  color: #1db4db;
+}
+
+a#librarylink {
+  font-size: 2em;
+  float: right;
+  margin-top: 50px;
+  margin-right: 20%;
+  color: #1db4db; 
+}

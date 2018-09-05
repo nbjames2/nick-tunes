@@ -1,12 +1,15 @@
 import React from 'react';
+import './Landing.css';
 
 const Landing = () => (
   <section className="landing">
-    <h1 className="hero-title">Turn the music up!</h1>
+    <section className='splash-image'>
+      <img src='./public/assets/images/headphones.png' alt='headphones on yellow background' />
+    </section>
 
     <section className="selling-points">
       <div className="point">
-        <h2 className="point-title">Choose your music</h2>
+        <h2 id='first-point-title' className="point-title">Choose your music</h2>
         <p className="point-description">The world is full of music; why should you have to listen to music that someone else chose?</p>
       </div>
       <div className="point">

@@ -1,0 +1,38 @@
+h2 {
+    color: #1DB4DB;
+    font-size: 2em;
+    text-decoration: underline;
+  }
+
+  p {
+    color: #1DB4DB;
+    font-size: 1.75em;
+  }
+
+  .selling-points {
+      float: right;
+      width: 50%;
+      display: table;
+      table-layout: fixed;
+  }
+
+  .point {
+      text-align: center;
+      display: table-row;
+  }
+
+
+  .point-title {
+      padding-top: 32px;
+      vertical-align: middle;
+      border-top: 1px solid #F04F23;
+  }
+
+    .point-description {
+      vertical-align: middle;
+  }
+
+  .splash-image {
+      position: absolute;
+      justify: center;
+  }
