@@ -21,18 +21,27 @@ h2 {
       display: table-row;
   }
 
+  h1 {
+    color: #1DB4DB;
+    font-size: 3em;
+  }
 
   .point-title {
-      padding-top: 32px;
+      padding-top: 24px;
       vertical-align: middle;
       border-top: 1px solid #F04F23;
   }
 
-    .point-description {
+  .point-dscription {
       vertical-align: middle;
   }
 
-  .splash-image {
+  #headphones {
       position: absolute;
-      justify: center;
+      float: left;
+      height: auto;
+      max-width: 30%;
+      display: block;
+      margin-left: 8%;
+      margin-top: 5%;
   }

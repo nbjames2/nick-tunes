@@ -1,0 +1,48 @@
+.album-image {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 1%;
+
+}
+
+.album-title {
+    text-align: right;
+    font-size: 1.75em;
+    color: #1db4db;
+    margin-top: 4%;
+    margin-right: 20%;    
+}
+
+.album-artist {
+    text-align: right;
+    font-size: 1.75em;
+    color: #1db4db;
+    margin-top: 4%;
+    margin-right: 20%;  
+}
+
+.album-songs {
+    text-align: right;
+    font-size: 1.75em;
+    color: #1db4db;
+    margin-top: 4%;
+    margin-right: 20%;  
+}
+
+.albums {
+    border: 1px solid #F04F23;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 50%;
+    height: 20%;
+    flex-wrap: wrap;
+    display: flex;
+}   
+
+.albums-info {
+    float: right;
+    width: 60%;
+    height: auto;
+}

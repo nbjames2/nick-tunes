@@ -1,0 +1,26 @@
+#time-control {
+    margin: 3%;
+}
+
+#volume-control {
+    margin: 3%;
+}
+.current-time {
+    float: left;
+}
+
+.total-time {
+    float: right;
+}
+
+.volume-down {
+    color: #1DB4DB;
+    float: left;
+    margin-left: 2%;
+}
+
+.volume-up {
+    color: #1DB4DB;
+    float: right;
+    margin-right: 2%;
+}

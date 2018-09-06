@@ -35,14 +35,9 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
+  margin-bottom: 1%;
+  width: 7%;
 }
-
-h1 {
-  color: #1DB4DB;
-  font-size: 3em;
-}
-
 
 body {
   background: #272727;
@@ -51,7 +46,7 @@ body {
 a#landinglink {
   font-size: 2em;
   float: left;
-  margin-top: 50px;
+  margin-top: 5%;
   margin-left: 20%;
   color: #1db4db;
 }
@@ -59,7 +54,7 @@ a#landinglink {
 a#librarylink {
   font-size: 2em;
   float: right;
-  margin-top: 50px;
+  margin-top: 5%;
   margin-right: 20%;
-  color: #1db4db; 
+  color: #1db4db;
 }
