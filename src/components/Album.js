@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import albumData from './../data/albums';
 import PlayerBar from './PlayerBar';
+import './Album.css';
 
 class Album extends Component {
   constructor(props) {
@@ -147,6 +148,7 @@ class Album extends Component {
             <div id="release-info">{this.state.album.releaseInfo}</div>
           </div>
         </section>
+        <section id="songs-controls">
         <table id="song-list">
           <colgroup>
             <col id="song-number-column" />
@@ -165,7 +167,7 @@ class Album extends Component {
             }
           </tbody>
         </table>
-        <PlayerBar 
+        <PlayerBar className='player-bar'
           isPlaying={this.state.isPlaying} 
           currentSong={this.state.currentSong}
           currentTime={this.audioElement.currentTime}
@@ -178,6 +180,7 @@ class Album extends Component {
           handleVolumeChange={(e) => this.handleVolumeChange(e)}
           formatTime={(time) => this.formatTime(time)}
         />
+        </section>
       </section>
     );
   }

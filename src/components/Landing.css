@@ -1,0 +1,47 @@
+h2 {
+    color: #1DB4DB;
+    font-size: 2em;
+    text-decoration: underline;
+  }
+
+  p {
+    color: #1DB4DB;
+    font-size: 1.75em;
+  }
+
+  .selling-points {
+      float: right;
+      width: 50%;
+      display: table;
+      table-layout: fixed;
+  }
+
+  .point {
+      text-align: center;
+      display: table-row;
+  }
+
+  h1 {
+    color: #1DB4DB;
+    font-size: 3em;
+  }
+
+  .point-title {
+      padding-top: 24px;
+      vertical-align: middle;
+      border-top: 1px solid #F04F23;
+  }
+
+  .point-dscription {
+      vertical-align: middle;
+  }
+
+  #headphones {
+      position: absolute;
+      float: left;
+      height: auto;
+      max-width: 30%;
+      display: block;
+      margin-left: 8%;
+      margin-top: 5%;
+  }
